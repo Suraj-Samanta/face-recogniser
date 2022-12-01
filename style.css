@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+    font-style: oblique;
+    color: black;
+}
+#camera,#result{
+border: 3px solid cyan;
+width: 400px;
+height: 400px;
+}
+hr{
+    background-color: black;
+    width: 3px;
+}
+h1{
+    width: 80%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.text{
+    background-color:aquamarine;
+}

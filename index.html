@@ -1,0 +1,57 @@
+ 
+<html>
+  <head>
+    <title>Face recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+  <div class="container">
+    
+    <center>
+<h1 id="heading" btn btn-heading>Face Recognizer</h1>
+      <br><br>
+
+      <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
+      <b class="text" > 
+        Mom
+        <hr>
+        Dad
+        <hr>
+        Brother
+        <hr>
+        Suraj(Me)
+<hr>
+      </b>
+
+      <label>Webcam View - </label>
+      <div id="camera"></div>
+      <br>
+<div id="result"></div>
+      <br><br>
+<button onclick="capture()" class="btn btn-danger">Capture </button> 
+      <br><br>
+<button onclick="result()" class="btn btn-primary">Result</button>
+      <br><br>
+
+      <br><br>
+
+      <p style="font-size: 22px;">Name : <span id="name"></span>  </p>
+      <p style="font-size: 22px;">Accuracy : <span id="accuracy"></span> </p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
